@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/yun99/chip-code#readme",
   "dependencies": {
+    "@wmfe/brandy-geo-wxapp": "^0.1.10",
+    "tapable": "^2.2.0",
     "webpack": "^4.39.3"
   },
   "devDependencies": {
