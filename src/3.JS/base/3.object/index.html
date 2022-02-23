@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+
+<body>
+</body>
+
+</html>
+<script>
+
+    const name = 'world';   // 使用var定义，window对象中name有值，const和lei定义，window中name为空字符串
+    const sayName = () => {
+        console.log(`I am ${this.name}`);
+    };
+
+    const subObj2 = {
+        name: 'subObj2',
+        sayHello() {
+            console.log(`[subObj2] hello ${this.name}`);
+        },
+        sayName
+    }
+
+    const obj1 = {
+        name,
+        sayHello() {
+            console.log(`hello ${this.name}`);
+        },
+        sayName,
+        subObj1: {
+            name: 'subObj1',
+            sayHello() {
+                console.log(`[subObj1] hello ${this.name}`);
+            },
+            sayName
+        },
+        subObj2,
+        createObj: function () {
+            this.name = 'new obj'
+        },
+        createObj2() {
+            this.name = 'new obj'
+        }
+    }
+
+    obj1.sayHello();
+    obj1.sayName();
+    obj1.subObj1.sayHello();
+    obj1.subObj1.sayName();
+    obj1.subObj2.sayHello();
+    obj1.subObj2.sayName();
+
+    // const sayHello = obj1.subObj1.sayHello;
+    // const obj = obj1.subObj2;
+    // sayHello();
+
+    // 对象方法可以做构造函数，正确
+    const newObj = new obj1.createObj();
+    console.log(newObj);
+
+    // 对象简写方法不能做构造函数，报错
+    // const newObj = new obj1.createObj();
+    // console.log(newObj);
+
+    // 字面量定义对象，属性使用标识符和表达式
+    let propKey = 'foo';
+    let obj2 = {
+        name: 'obj',
+        [propKey]: true,
+        ['a' + 'bc']: 123,
+        ['h' + 'ello']() {
+            return 'hi';
+        }
+    };
+    console.log(obj2)
+    console.log(JSON.stringify(obj2))
+
+    // -----------------super------------------
+    // super指向对象的原型对象
+    const proto3 = {
+        foo: 'hello'
+    };
+
+    const obj3 = {
+        foo: 'world',
+        find() {
+            // 同 Object.getPrototypeOf(this).foo
+            return super.foo;
+        }
+    };
+    Object.setPrototypeOf(obj3, proto3);
+    console.log(obj3.find())
+
+
+    const proto4 = {
+        x: 'hello',
+        foo() {
+            console.log(this);
+            console.log(this.x);
+        },
+    };
+    const obj4 = {
+        x: 'world',
+        foo() {
+            // 同 Object.getPrototypeOf(this).foo.call(this)
+            super.foo();
+        }
+    }
+
+    Object.setPrototypeOf(obj4, proto4);
+    obj4.foo() 
+</script>

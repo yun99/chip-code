@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign</title>
+</head>
+<body>
+    <script>
+        Object.prototype.__name = 'll'
+        class Parent{
+            parentName = 'parent';
+            sayParentName() {
+                console.log(`parent name is ${this.name}`);
+            }
+        }
+
+        class Children extends Parent{
+            name = 'children';
+            sayName() {
+                console.log(`My name is ${this.name}`);
+            }
+        }
+
+        const obj1 = new Children();
+        const obj2 = {
+            birthday: '2000.01.01',
+            sayBirthday() {
+                console.log(`My birthday is ${this.birthday}`);
+            }
+        }
+        const obj3 = Object.assign({}, obj1, obj2);
+        console.log({
+            obj1, obj2, obj3
+        });
+        for(let k in obj1) {
+            console.log(k, obj1[k])
+        }
+
+    </script>
+</body>
+</html>
