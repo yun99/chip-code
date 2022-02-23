@@ -1,0 +1,1 @@
+<view class="title-wrapper" style="{{customStyle}}"><view class="back-btn" catchtap="handleBack"></view><view class="title-text" style="{{titleStyle}}">{{title}}</view></view>

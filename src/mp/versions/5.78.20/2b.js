@@ -1,0 +1,1 @@
+var e=require("./3f.js"),s={getDeviceGrade(s){let r=-1;return s&&"string"==typeof s?(r=e[s],this.isResultLegal(r)?r:-1):-1},isResultLegal:e=>-1===e||0===e||1===e||2===e};module.exports=s;

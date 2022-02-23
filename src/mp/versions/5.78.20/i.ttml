@@ -1,0 +1,1 @@
+<view class="wrap" tt:if="{{isShow}}"><view class="item font-style" style="color: {{item.fontColor}}; box-shadow: 0 0 1px {{item.boxShadow}}" tt:for="{{tipList}}" tt:if="{{item.labelName}}">{{item.labelName}}</view></view>

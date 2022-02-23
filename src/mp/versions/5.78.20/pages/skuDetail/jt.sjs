@@ -1,0 +1,1 @@
+var e=function e(r){if(r.url)r=r.url;if(r&&r.slice(0,7)==="http://"){return r.replace("http://","https://")}else{return r}};module.exports=function(r){if(r.map){return r.map(e)}else{return e(r)}};

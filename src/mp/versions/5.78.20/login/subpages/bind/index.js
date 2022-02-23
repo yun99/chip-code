@@ -1,0 +1,1 @@
+var{BindPage:e}=require("../../../ol.js");Page(e);

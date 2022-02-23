@@ -1,0 +1,1 @@
+<view class="{{className+(inComp?' inComp':'')}}" catchtouchmove="catchTouchMove" tt:if="{{show}}"><view class="two-dot-center"><view class="two-dot"><view class="dot first"></view><view class="dot second"></view></view></view><view class="ui-loading-backdrop" /></view>

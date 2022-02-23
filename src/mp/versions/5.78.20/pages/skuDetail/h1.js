@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((r,t)=>{for(var n in(r=>{e(r,"__esModule",{value:!0})})(r),t)e(r,n,{get:t[n],enumerable:!0})})(exports,{default:()=>r});var r=class{getSkuIntroductionData(e={}){var r;return(null==(r=e.description)?void 0:r.length)?{skuId:e.skuId,description:e.description}:null}};

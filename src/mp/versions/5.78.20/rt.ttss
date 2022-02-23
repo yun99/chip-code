@@ -1,0 +1,1 @@
+@import "./pv.ttss";@import "./yr.ttss";.wrapper{display:flex;flex-direction:column;height:100%;justify-content:center;width:100%}.logo{height:66rpx;margin:0 0 0 24rpx;width:196rpx;z-index:1}

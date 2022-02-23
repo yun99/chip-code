@@ -1,0 +1,1 @@
+@import "../../pv.ttss";.pop-container{background:#fff;border-radius:24rpx 24rpx 0 0;overflow:hidden;width:750rpx}.title{border-bottom:1px solid #eee;padding:30rpx 0 32rpx;text-align:center}.content{box-sizing:border-box;margin:30rpx 0;max-height:440rpx;padding:0 30rpx}.sure-btn{margin:66rpx 30rpx 30rpx}

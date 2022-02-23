@@ -1,0 +1,1 @@
+module.exports=function(o,e){if(!(o instanceof e))throw new TypeError("Cannot call a class as a function")},module.exports.default=module.exports,module.exports.__esModule=!0;

@@ -1,0 +1,1 @@
+<template name="buttonTips"><view class="button-tips-container {{buttonTipsData.isIpx ? 'fix-Ipx' : ''}}"><view class="tips-text g-text-3 g-color-dark g-color-1">{{buttonTipsData.buttonTips}}</view><view class="tips-triangle" /></view></template>

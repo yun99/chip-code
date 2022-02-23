@@ -1,0 +1,12 @@
+<wxs module="tools">var getIconUrl = function (selected, valid, globValid) {
+        var iconUrl = {
+            'UN_SELECT': 'https://s3plus.meituan.net/v1/mss_1f3dca8fe8534e6fa640054bf3ad2ba6/grocery-fe-cdn/wx/images/cdn/select-circle.08e1654.png',
+            'SELECTED': 'https://s3plus.meituan.net/v1/mss_1f3dca8fe8534e6fa640054bf3ad2ba6/grocery-fe-cdn/wx/images/cdn/selected_new.aaa1656.png',
+            'INVALID': 'https://s3plus.meituan.net/v1/mss_1f3dca8fe8534e6fa640054bf3ad2ba6/grocery-fe-cdn/wx/images/cdn/oval.6e74521.png'
+        };
+        var status = valid && globValid ? (selected ? 'SELECTED' : 'UN_SELECT') : 'INVALID';
+        return iconUrl[status];
+    };
+    module.exports = {
+        getIconUrl: getIconUrl
+    };</wxs><z bindmvReport="onMvReport" noData="{{true}}"><view class="root"><view class="flex-align-center card-root"><view class="flex-align-center card-select-box" bind:tap="onSelectTap"><wq class="card-select" webp-conf="{{({width: '44rpx', height: '44rpx' })}}" src="{{tools.getIconUrl(good.selected ,good.valid, valid)}}" /></view><view class="content" bind:tap="goToSkuDetail"><view class="good-pic-box"><wq class="card-image" webp-conf="{{({width: '168rpx', height: '168rpx' })}}" src="{{good.pic}}" styleStr="border-radius: 8rpx;" /><view class="flex-align-center invalid-pic" tt:if="{{!good.valid}}">失效</view></view><view class="card-message"><view class="card-title"><wq class="title-label" webp-conf="{{({ height: '30rpx' })}}" src="{{good.activityTag}}" mode="heightFix" tt:if="{{good.activityTag}}" /><view class="title">{{good.title}}</view></view><view class="price"><view class="final-price"><view class="final-price-symbol">￥</view><view>{{good.finalPrice / 100}}</view><view class="seller-price" tt:if="{{good.sellerPrice}}">￥{{good.sellerPrice / 100}}</view></view><view>x{{good.quantity ? good.quantity : 1}}</view></view></view></view></view><view class="invalid-good" bind:tap="goToSkuDetail" tt:if="{{!good.valid || !valid}}" /></view></z>

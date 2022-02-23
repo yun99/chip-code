@@ -1,0 +1,1 @@
+Component({properties:{title:{type:String,value:""},customStyle:{type:String,value:""},titleStyle:{type:String,value:""}},methods:{handleBack(){this.triggerEvent("back")}}});

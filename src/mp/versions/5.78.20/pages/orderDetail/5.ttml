@@ -1,0 +1,1 @@
+<view class="cs"><view class="item" data-url="{{item.link}}" data-name="{{item.questionStr}}" bindtap="jump" tt:for="{{list}}" tt:key="questionStr"><yy bid="b_youxuan_au5uuzp1_mv" lxParams="{{({order_id: orderId, message: item.questionStr})}}" bindmvReport="mvHandler">{{item.questionStr}}</yy></view></view>

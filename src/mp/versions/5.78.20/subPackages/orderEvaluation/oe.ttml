@@ -1,0 +1,1 @@
+<template name="bottom"><view class="coupon-bottom"><view class="line"></view><view class="dot dot-line-dis"></view><view class="text dot-text-dis">{{bottomText}}</view><view class="dot"></view><view class="line dot-line-dis"></view></view></template>

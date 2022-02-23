@@ -1,0 +1,1 @@
+var r=Object.defineProperty;((e,s)=>{for(var t in(e=>{r(e,"__esModule",{value:!0})})(e),s)r(e,t,{get:s[t],enumerable:!0})})(exports,{default:()=>e});var e=class{constructor({historyAddress:r=[],historyPoi:e=[]}={}){this.historyAddress=r,this.historyPoi=e}};

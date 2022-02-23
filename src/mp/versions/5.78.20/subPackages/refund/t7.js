@@ -1,0 +1,1 @@
+Component(new class{constructor(){this.methods={toClose(){this.triggerEvent("close")},makePhoneCall(t){this.triggerEvent("makePhoneCall",t.currentTarget.dataset),this.toClose()}},this.properties={show:{type:Boolean,value:!1},title:{type:String,value:""},buttonTipsList:{type:Array,value:[]}}}});

@@ -1,0 +1,1 @@
+module.exports={TAKE_COUPON:"点击领取",COUPON_IS_TAKED:"已领取"};

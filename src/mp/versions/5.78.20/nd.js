@@ -1,0 +1,1 @@
+var e=Object.defineProperty;function t(e,t){const r=e.split("."),n=t.split("."),l=Math.max(r.length,n.length);for(;r.length<l;)r.push("0");for(;n.length<l;)n.push("0");let u=0;for(;u<l;){if(+r[u]<+n[u])return-1;if(+n[u]<+r[u])return 1;u++}return 0}((t,r)=>{for(var n in(t=>{e(t,"__esModule",{value:!0})})(t),r)e(t,n,{get:r[n],enumerable:!0})})(exports,{default:()=>t});

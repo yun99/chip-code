@@ -1,0 +1,1 @@
+var l=Object.defineProperty;((e,t)=>{for(var r in(e=>{l(e,"__esModule",{value:!0})})(e),t)l(e,r,{get:t[r],enumerable:!0})})(exports,{default:()=>e});var e=class{getFaqData(l={},e,t){var r;return(null==(r=null==l?void 0:l.itemList)?void 0:r.length)>0?{skuId:e,productId:t,faqList:l.itemList||[],moduleTitle:l.moduleTitle||null,total:l.total||null,moreUrl:l.moreUrl||null}:null}};

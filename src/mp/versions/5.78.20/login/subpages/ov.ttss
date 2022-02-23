@@ -1,0 +1,1 @@
+@import "./kp.ttss";@import "./ca.ttss";@import "./co.ttss";@import "./ks.ttss";@import "./ka.ttss";@import "./cp.ttss";@import "./cd.ttss";@import "./cs.ttss";@import "./cf.ttss";@import "./cg.ttss";@import "./ch.ttss";.page,page{height:100%;overflow:hidden;width:100%}

@@ -1,0 +1,1 @@
+<view class="mvComp customer-style {{useInlineBlock ? 'inline-block' : ''}}" style="{{customStyle}}"><slot></slot></view>

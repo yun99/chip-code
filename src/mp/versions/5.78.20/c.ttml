@@ -1,0 +1,1 @@
+<view class="container-animation"><view id="animation-drop-{{item}}" class="content-animation" tt:for="{{items}}" tt:key="*this"></view></view>

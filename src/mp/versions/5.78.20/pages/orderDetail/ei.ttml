@@ -1,0 +1,1 @@
+<tf show="{{riskPopup}}" showMask="{{riskPopup}}" zIndex="{{1100}}" bind:maskclick="close" catchtouchmove><view class='risk-popup'><view class='content g-text-1' style="{{isPhone?'':'font-weight:650'}}">{{riskInfo}}</view><yh type="primary" class='g-text-1' otherStyle="width:590rpx;height:90rpx;border-radius: 45px;" bindtap='close'>我知道了</yh></view></tf>

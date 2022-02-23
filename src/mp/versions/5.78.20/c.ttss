@@ -1,0 +1,1 @@
+.container-animation{position:fixed;top:0;z-index:98}.content-animation{background:#ffd100;border-radius:50%;height:30rpx;left:0;opacity:0;position:fixed;width:30rpx}

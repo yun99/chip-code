@@ -1,0 +1,1 @@
+Component({data:{show:!1,className:""},properties:{show:Boolean,inComp:{type:Boolean,value:!1}},ready(){},methods:{loading(o){let a={show:!0};"boolean"==typeof o?a.show=o:a=Object.assign(a,o),a.show?wx.showNavigationBarLoading():wx.hideNavigationBarLoading(),this.setData({show:a.show,className:a.class?a.class:""})},catchTouchMove(){}}});

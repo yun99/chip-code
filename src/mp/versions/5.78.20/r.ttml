@@ -1,0 +1,1 @@
+<view class="scene-loading" style="{{wrapperStyle}}"><wq class="scene-loading__icon" src="https://p0.meituan.net/mallimages/7fccf85fdd6d8534198e6d1bc61ef9cd3570.png" mode="scaleToFill" webp-conf="{{({width:'30rpx', height:'30rpx'})}}" isBlockImg="{{true}}" /><view class="scene-loading__text">{{loadingText}}</view></view>

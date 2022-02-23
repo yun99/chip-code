@@ -1,0 +1,1 @@
+@import "./jn.ttss";.login-text{background:#fff0f0;color:#ed0010;font-size:24rpx;height:64rpx;justify-content:space-between;opacity:.94;padding:0 30rpx}

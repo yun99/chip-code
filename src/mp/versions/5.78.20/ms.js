@@ -1,0 +1,1 @@
+var R,E,e=Object.defineProperty;((R,E)=>{for(var O in(R=>{e(R,"__esModule",{value:!0})})(R),E)e(R,O,{get:E[O],enumerable:!0})})(exports,{RESULT_CODE:()=>R}),(E=R||(R={}))[E.SUCCESS=200]="SUCCESS",E[E.REDIRECT=301]="REDIRECT",E[E.NEXT=302]="NEXT",E[E.REQUEST_ERROR=400]="REQUEST_ERROR",E[E.NOT_FOUND=404]="NOT_FOUND",E[E.ERROR=500]="ERROR";

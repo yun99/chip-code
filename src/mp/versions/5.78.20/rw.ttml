@@ -1,0 +1,1 @@
+<view class="need-login-tips" bind:tap="goLogin"><view class="need-login-text g-text-3">登录后查看更多商品</view><view class="need-login-btn g-text-3">去登录</view></view>

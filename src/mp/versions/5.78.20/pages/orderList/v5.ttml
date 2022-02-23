@@ -1,0 +1,1 @@
+<import src="./v7.ttml" /><template name="styleText"><view style="{{style}}" class="temp-text {{layout === 'left' ? 'item-left' : 'item-right'}}"><block tt:for="{{content}}"><block tt:if="{{item.isLine}}"><template is="vLine" data="{{style: item.style}}" /></block><text style="{{item.style}}" tt:else>{{item.value}}</text></block></view></template>

@@ -1,0 +1,1 @@
+var t=getApp();Component(new class{constructor(){this.methods={onTap(t){var e,a;(null==(a=null==(e=null==t?void 0:t.currentTarget)?void 0:e.dataset)?void 0:a.type)&&this.triggerEvent("change",{type:t.currentTarget.dataset.type,count:this.data.count})}},this.properties={count:{type:Number,value:1}},this.data={fontRate:t.$cart.getCartFontRate()||1}}});

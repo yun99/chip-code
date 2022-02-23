@@ -1,0 +1,1 @@
+var r=function r(e){if(e){return{"custom":{"share_url":e}}}return{}};module.exports={"shareLxParams":r};

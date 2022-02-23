@@ -1,0 +1,1 @@
+function i(i){var r=i||{};return r.originPrice&&r.originPrice.priceType===1&&r.originPriceTag}function r(r){var e="";var n=r||{};var c=i(n);if(c){var o=n.originPrice.newDashPrice&&n.originPrice.newDashPrice.text||"";var a=n.originPriceTag||"";e=""+o+" "+a}return e}module.exports={"showNewOriginPrice":i,"getNewPriceTips":r};

@@ -1,0 +1,1 @@
+var e=require("./2q.sjs");var s=require("./10.sjs");module.exports=function(r,t){return s(r,t,e)};

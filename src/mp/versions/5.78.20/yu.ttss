@@ -1,0 +1,1 @@
+.closeButton-container{position:relative;width:100%}.closeButton-style{box-sizing:border-box;display:block;height:54rpx;position:absolute;right:0;top:0;width:54rpx;z-index:200}.mainContent{align-items:center;display:flex;flex-direction:column;height:auto;justify-content:center;max-width:100vw;position:relative}.popupContent{position:relative;width:100%;z-index:101}

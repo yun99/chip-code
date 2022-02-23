@@ -1,0 +1,1 @@
+Component(new class{constructor(){this.properties={}}});

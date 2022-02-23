@@ -1,0 +1,1 @@
+@import "../../oz.ttss";.scale-icons{bottom:30rpx;height:184rpx;position:fixed;right:18rpx;width:104rpx;z-index:10}.minus,.plus{height:92rpx;width:104rpx}.location{bottom:30rpx;height:104rpx;left:18rpx;position:fixed;width:104rpx;z-index:10}

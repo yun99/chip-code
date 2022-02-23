@@ -1,0 +1,1 @@
+.tag-list{display:flex;padding:0 0 30rpx}.tag-item{align-items:center;background:rgba(0,0,0,.04);border-radius:6rpx;box-sizing:border-box;color:rgba(0,0,0,.7);display:flex;font-size:28rpx;height:50rpx;justify-content:center;margin-left:18rpx;min-width:114rpx;padding-top:1rpx}.tag-item-0{margin-left:0}.selected-true{background:#ffd100;color:rgba(0,0,0,.9)}

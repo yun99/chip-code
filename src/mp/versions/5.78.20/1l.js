@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((r,t)=>{for(var i in(r=>{e(r,"__esModule",{value:!0})})(r),t)e(r,i,{get:t[i],enumerable:!0})})(exports,{default:()=>r});var r=class{constructor({clickid:e,broadcast_id:r,requestid:t}){this.clickid=e,this.broadcast_id=r,this.requestid=t}};

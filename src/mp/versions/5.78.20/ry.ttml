@@ -1,0 +1,1 @@
+<view class="banner-container" catch:tap="handleJump"><view class="img-container" style="width: {{sizeConf.width}}; height: {{sizeConf.height}};"><z bid="{{mvProps.mv}}" lx-params="{{({ activity_page_id: pageId })}}" bindmvReport="onMvReport"><wq isBlockImg class="logo" src="{{imageUrl}}" webp-conf="{{({ width: sizeConf.width, height: sizeConf.height })}}" /></z></view></view>

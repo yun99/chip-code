@@ -1,0 +1,1 @@
+<view class="myAddress"><view class="title font-title">当前自提点</view><ip state="{{poiCardState}}" mv-props="{{({bid: 'b_youxuan_naw3fzjn_mv', mvHandler: mvHandler})}}" poi-item="{{currentPoi}}" show-bottom-line="{{false}}" mcbid="b_youxuan_iyal97nu_mc" bind:onSelectTap="poiCardTapped" /></view>

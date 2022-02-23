@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((r,t)=>{for(var o in(r=>{e(r,"__esModule",{value:!0})})(r),t)e(r,o,{get:t[o],enumerable:!0})})(exports,{default:()=>r});var r=class{constructor(e){for(const r in e)Object.prototype.hasOwnProperty.call(e,r)&&(this[r]=e[r])}};

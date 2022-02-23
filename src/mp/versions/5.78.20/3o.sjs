@@ -1,0 +1,1 @@
+function t(t){switch(t){case 17:return"margin-bottom: -6rpx;";default:return""}}module.exports={"getImgTagAdjustStyle":t};

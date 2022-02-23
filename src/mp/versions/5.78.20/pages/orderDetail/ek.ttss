@@ -1,0 +1,1 @@
+.map{height:660rpx;width:100%}.controls{left:4%;position:relative;top:86%}.controls .img-fail{background-color:#fff;border-radius:12rpx;box-sizing:border-box;color:#121924;font-size:26rpx;height:64rpx;line-height:64rpx;padding:0 26rpx;width:104rpx}.controls .img{height:68rpx;width:68rpx}

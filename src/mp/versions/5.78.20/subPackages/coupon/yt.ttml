@@ -1,0 +1,1 @@
+<view class="tab-item {{active ? 'active' : ''}}"><view class="content" style="margin-bottom:{{padding}}rpx;font-size:{{fontSize}}rpx;"><slot></slot></view><view class="bottom"><view class="bottom-line"></view></view></view>

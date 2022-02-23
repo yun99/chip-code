@@ -1,0 +1,1 @@
+Component({properties:{show:Boolean,title:String,data:{type:Object,value:{}},showClose:{type:Boolean,value:!0},showFooter:{type:Boolean,value:!0},confirm:{type:String,value:""},zIndex:{type:Number,value:100}},data:{containerStyle:""},methods:{handleClose(){this.triggerEvent("closeRedPackageRulePop")}}});

@@ -1,0 +1,1 @@
+function e(o){return module.exports=e=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},module.exports.default=module.exports,module.exports.__esModule=!0,e(o)}module.exports=e,module.exports.default=module.exports,module.exports.__esModule=!0;

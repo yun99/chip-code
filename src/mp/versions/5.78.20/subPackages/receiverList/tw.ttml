@@ -1,0 +1,1 @@
+<view class="mask" tt:if="{{show}}"><view class="content-container"><view class="content">{{content}}</view><view class="btn-list"><view class="btn btn-cancel" catchtap="handleCancel">{{cancelText}}</view><view class="btn btn-ok" catchtap="handleOk">{{okText}}</view></view></view></view>

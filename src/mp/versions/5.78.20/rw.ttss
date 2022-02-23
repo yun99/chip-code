@@ -1,0 +1,1 @@
+@import "./pv.ttss";.need-login-tips{align-items:center;background:rgba(0,0,0,.85);border-radius:37rpx;box-sizing:border-box;display:flex;height:80rpx;justify-content:space-between;margin:0 20rpx 10rpx;padding:0 24rpx;width:722rpx}.need-login-text{color:#fff}.need-login-btn{background:#ffd100;border-radius:23rpx;color:rgba(0,0,0,.7);padding:4rpx 24rpx}

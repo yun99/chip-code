@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((r,a)=>{for(var n in(r=>{e(r,"__esModule",{value:!0})})(r),a)e(r,n,{get:a[n],enumerable:!0})})(exports,{default:()=>a});var r=new Array(16);function a(){for(var e,a=0;a<16;a++)0==(3&a)&&(e=4294967296*Math.random()),r[a]=e>>>((3&a)<<3)&255;return r}

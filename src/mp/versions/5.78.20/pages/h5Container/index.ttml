@@ -1,0 +1,1 @@
+<wxs module="fps" src="../../ij.sjs" /><web-view src="{{h5Url}}" bindmessage="receiveMessage" bindload="h5PageOnload" binderror="h5Error"></web-view><view change:prop="{{fps.fpsRecord}}" prop="{{_fpsIsComputed}}"></view>

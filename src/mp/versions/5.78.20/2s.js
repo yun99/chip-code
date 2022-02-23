@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t,a){return"["+(0,e.getDateStr)(t.startTime)+"] ["+t.level.levelStr+"] "+t.categoryName+" - "+(0,e.formatLogData)(t.data)+" \n"};var e=require("./n9.js");

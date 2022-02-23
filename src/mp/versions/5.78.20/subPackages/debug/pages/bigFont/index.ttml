@@ -1,0 +1,1 @@
+<wxs module="fps" src="../../../../ij.sjs" /><view style="{{zoomable_rem}}"><view class="tips"><view>大字号SDK接入指南</view><view>https://km.sankuai.com/page/820669998</view></view><yx text="点击确定后，首页、订单等页面的字体大小会按照当前展示发生变化，使用过程中如遇到问题，可通过意见反馈功能反馈给我们。 @zhangsheng05" /></view><view change:prop="{{fps.fpsRecord}}" prop="{{_fpsIsComputed}}"></view>

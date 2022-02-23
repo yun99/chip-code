@@ -1,0 +1,1 @@
+Component({properties:{show:{type:Boolean,value:!1},content:{type:String,value:""},okText:{type:String,value:"确定"},cancelText:{type:String,value:"取消"}},methods:{handleOk(){this.triggerEvent("ok")},handleCancel(){this.triggerEvent("cancel")}}});

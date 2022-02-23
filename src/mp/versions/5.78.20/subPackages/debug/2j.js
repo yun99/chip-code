@@ -1,0 +1,1 @@
+var e=require("./3s.js")(Object.getPrototypeOf,Object);module.exports=e;

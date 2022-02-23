@@ -1,0 +1,1 @@
+<view class="no-data"><wq webp-conf="{{({width: '300rpx', height: '260rpx'})}}" src="https://s3plus.meituan.net/v1/mss_1f3dca8fe8534e6fa640054bf3ad2ba6/grocery-fe-cdn/wx/images/cdn/no_data.d7e1477.png"></wq><view class="text">抱歉，没有找到符合条件的商品</view><view class="text">可以更换筛选条件试试</view></view>

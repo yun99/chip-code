@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((a,r)=>{for(var t in(a=>{e(a,"__esModule",{value:!0})})(a),r)e(a,t,{get:r[t],enumerable:!0})})(exports,{default:()=>a});var a=class{constructor({id:e,username:a,avatarurl:r,mobile:t,nickname:i}={}){this.id=e,this.username=a,this.avatarurl=r,this.mobile=t,this.nickname=i}};

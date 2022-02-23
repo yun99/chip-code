@@ -1,0 +1,1 @@
+<template name="text"><view class="temp-text {{layout === 'left' ? 'item-left' : 'item-right'}}" style="{{style}}">{{content}}</view></template>

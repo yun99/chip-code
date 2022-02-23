@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((t,r)=>{for(var s in(t=>{e(t,"__esModule",{value:!0})})(t),r)e(t,s,{get:r[s],enumerable:!0})})(exports,{default:()=>t});var t=class{constructor({url:e="",status:t=1,checkDoc:r=!1,reload:s=!1}={}){this.url=e,this.status=t,this.checkDoc=r,this.reload=s}};

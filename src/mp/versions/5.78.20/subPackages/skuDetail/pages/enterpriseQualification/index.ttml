@@ -1,0 +1,1 @@
+<wxs module="fps" src="../../../../ij.sjs" /><include src="../../../../er.ttml" /><view class="enterprise-qualification-page"><block tt:for="{{enterpriseQualificationData.imageList}}" tt:for-item="imageItem" tt:key="url"><image class="image-item" src="{{imageItem.url}}" mode="widthFix" /></block></view><view change:prop="{{fps.fpsRecord}}" prop="{{_fpsIsComputed}}"></view>

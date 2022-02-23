@@ -1,0 +1,1 @@
+var e=Object.defineProperty;function l({deciSmall:e=!1,showNewPriceTips:l=!1,sellPriceClass:r="",sellPriceSizeClass:s="f_44 lh_r_140"}={}){return{type:"sell-price",classStr:`${r} ${s}`,options:{deciSmall:e,showNewPriceTips:l}}}((l,r)=>{for(var s in(l=>{e(l,"__esModule",{value:!0})})(l),r)e(l,s,{get:r[s],enumerable:!0})})(exports,{default:()=>l});

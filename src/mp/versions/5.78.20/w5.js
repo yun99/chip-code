@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((o,t)=>{for(var n in(o=>{e(o,"__esModule",{value:!0})})(o),t)e(o,n,{get:t[n],enumerable:!0})})(exports,{default:()=>t});var o=getApp(),t=class{constructor(){this.methods={goLogin(){o.$login.login()}},this.properties={isLogin:{type:Boolean,value:!0}}}};Component(new t);

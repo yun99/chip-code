@@ -1,0 +1,1 @@
+var{dataCenter:e,LEVEL_TEXT:t}=require("../../o8.js"),a=-1;Component({properties:{text:{type:String}},data:{level:-1,levelTexts:t},methods:{onChange(t){const a=t.currentTarget.dataset.level;this.setData({level:a}),e.update(a)},onConfirm(){a=this.data.level,e.update(a),wx.navigateBack()}},attached(){a=e.level,this.setData({level:a})},detached(){e.update(a)}});

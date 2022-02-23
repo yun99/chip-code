@@ -1,0 +1,1 @@
+module.exports={pages:{newSeckill:{index:{cid:"c_youxuan_6dml7nwv",pvAuto:!0}}},subPackages:{coupon:{pages:{couponList:{index:{cid:"c_youxuan_n5e7ltww",pvAuto:!0}},couponSelect:{index:{cid:"c_o71qo2fo",pvAuto:!0}},couponSkuList:{index:{cid:"c_youxuan_78tprjcj",pvAuto:!0}},addon:{index:{cid:"c_youxuan_zpwddqm3",pvAuto:!0}}}},lancer:{index:{cid:"c_youxuan_pk0xopjr",pvAuto:!1}}}};

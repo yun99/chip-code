@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((s,r)=>{for(var c in(s=>{e(s,"__esModule",{value:!0})})(s),r)e(s,c,{get:r[c],enumerable:!0})})(exports,{wxPromisify:()=>s});var s=(e,s=wx)=>function(r={},...c){return new Promise(((i,a)=>{const n=Object.assign({},r,{success:e=>{r.success&&r.success(e),i(e)},fail:e=>{r.fail&&r.fail(e),a(e)}});s[e](n,...c)}))};

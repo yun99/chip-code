@@ -1,0 +1,1 @@
+<wxs module="fps" src="../../../ij.sjs" /><web-view src="{{webViewSrc}}"></web-view><view change:prop="{{fps.fpsRecord}}" prop="{{_fpsIsComputed}}"></view>

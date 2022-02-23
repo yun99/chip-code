@@ -1,0 +1,1 @@
+<view class="list" style="height:{{height}};"><view class="item-list" style="animation: {{animationName}} 1s steps(10) {{infinite ? 'infinite': ''}};"><text class="item" style="height: {{height}};" tt:for="{{list}}" tt:key="index">{{item}}</text></view></view>

@@ -1,0 +1,1 @@
+@import "../../pv.ttss";.brandEntryContainer{background-color:#fff}.titleArea{height:80rpx;margin-left:16rpx}.title{color:#121924;font-size:28rpx;font-weight:500}.bottom{margin-top:24rpx;overflow:hidden}.flex{display:flex}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}

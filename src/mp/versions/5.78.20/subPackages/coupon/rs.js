@@ -1,0 +1,1 @@
+Component({properties:{show:{type:Boolean,value:!1},cities:{type:String,value:""}},data:{},attached(){},methods:{close(){this.triggerEvent("closePop")}}});

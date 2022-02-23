@@ -1,0 +1,1 @@
+var t=function t(e,o){if(!e||!o&&e>1)e=1;var a=97,i=o?50:52,r=o?20:22;return{"height":"height:"+a/e+"rpx","size":"width:"+i/e+"rpx;height:"+i/e+"rpx","text":"font-size:"+r/e+"rpx","bottom":"bottom:"+a/e+"rpx; padding-bottom: constant(safe-area-inset-bottom);padding-bottom: env(safe-area-inset-bottom);"}};module.exports={"styleMap":t};

@@ -1,0 +1,1 @@
+var e=require("./2x.js"),u=require("./2c.js"),r=require("./2z.js"),l=require("./2v.js");module.exports=function(o){return e(o)||u(o)||r(o)||l()},module.exports.default=module.exports,module.exports.__esModule=!0;

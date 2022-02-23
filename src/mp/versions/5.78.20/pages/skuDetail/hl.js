@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((l,s)=>{for(var u in(l=>{e(l,"__esModule",{value:!0})})(l),s)e(l,u,{get:s[u],enumerable:!0})})(exports,{default:()=>l});var l=class{getMultiSuppliersData(e={}){var l;return e.sellBusinessVO?{skuId:e.skuId||null,sellBusinessVO:e.sellBusinessVO||null,originPrice:(null==(l=e.dashPrice)?void 0:l.text)||""}:null}};

@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t){return Object.assign({},t,{data:(0,e.formatLogData)(t.data)})};var e=require("./n9.js");

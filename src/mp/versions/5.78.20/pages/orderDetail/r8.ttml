@@ -1,0 +1,1 @@
+<view class="wrap" tt:if="{{show}}"><view>{{labelText}}</view><io checked="{{checked}}" bindchange="onSwitchChange" /></view>

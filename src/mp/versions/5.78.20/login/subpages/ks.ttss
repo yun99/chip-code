@@ -1,0 +1,1 @@
+.imgWrapper{height:auto}.imgWrapper .inputWrapper{margin:0 auto;text-align:center;width:90%}.imgWrapper .img{height:90rpx;margin:16rpx 0rpx;width:200rpx}.imgWrapper .btnWrapper{border-top:1rpx solid #e4e4e4;line-height:100rpx;margin-top:16rpx}.codeInput{background-color:#fff;border:1px solid #fe8c00;border-radius:3px;font-size:30rpx;height:70rpx;width:100%}

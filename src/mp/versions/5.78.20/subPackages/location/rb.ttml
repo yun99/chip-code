@@ -1,0 +1,1 @@
+<view class="container {{source==='selfliftMap' ? 'selfliftMap':''}}"><wm tips="{{message}}" title="{{title}}" type="{{type}}" show-btn="{{buttonTitle}}" btn-text="{{buttonTitle}}" error-code="{{errorCode}}" from="poi" bindgoAction="buttonClick"><view slot="btn" class="button g-text-1" bind:tap="goAction2" tt:if="{{buttonTitle2}}">{{buttonTitle2}}</view></wm></view>

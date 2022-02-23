@@ -1,0 +1,1 @@
+.list{height:34rpx;overflow:hidden}.item-list{display:flex;flex-direction:column}.item{height:34rpx}

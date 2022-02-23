@@ -1,0 +1,1 @@
+var E=Object.defineProperty;((O,_)=>{for(var e in(O=>{E(O,"__esModule",{value:!0})})(O),_)E(O,e,{get:_[e],enumerable:!0})})(exports,{default:()=>O});var O={SDK_VERSION:"1.0.21",LOGIN:"LOGIN",PAGE_SCROLL:"PAGE_SCROLL",SCENE_CHANGE:"SCENE_CHANGE",PAGE_REACH_BOTTOM:"PAGE_REACH_BOTTOM",SORT_COMPLETE:"SORT_COMPLETE",POIINFO_UPDATE:"POIINFO_UPDATE",WX_SDK_VERSION:"0.0.1"};

@@ -1,0 +1,1 @@
+.tab-item{display:inline-block}.tab-item .content{color:#121924;font-size:28rpx;letter-spacing:0;text-align:center}.tab-item .bottom{opacity:0;padding:0 10rpx}.tab-item .bottom .bottom-line{background:#ffd100;border-radius:4rpx;height:6rpx;width:100%}.tab-item.active .content{color:#121924;font-family:PingFangSC-Medium;font-weight:700}.tab-item.active .bottom{opacity:1}

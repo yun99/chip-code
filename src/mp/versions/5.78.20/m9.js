@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((t,s)=>{for(var u in(t=>{e(t,"__esModule",{value:!0})})(t),s)e(t,u,{get:s[u],enumerable:!0})})(exports,{default:()=>t});var t=class{constructor({skuId:e="",skuCount:t=1,groupId:s=0,templateId:u}={}){this.skuId=e,this.skuCount=t,this.groupId=s,this.templateId=u}};

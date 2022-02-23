@@ -1,0 +1,1 @@
+<view class="wrap"><block tt:for="{{tabList}}"><view class="item-wrap" data-item="{{item}}" bindtap="onTabTap"><view class="tab-text {{item.itemKey === currentTabItem.itemKey ? 'selected' : ''}}">{{item.itemText}}</view><view class="under-line {{item.itemKey === currentTabItem.itemKey ? 'selected' : ''}}"></view></view></block></view>

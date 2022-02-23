@@ -1,0 +1,1 @@
+module.exports=function(e,o){(null==o||o>e.length)&&(o=e.length);for(var l=0,r=new Array(o);l<o;l++)r[l]=e[l];return r},module.exports.default=module.exports,module.exports.__esModule=!0;

@@ -1,0 +1,1 @@
+<wxs module="fps" src="../../../../ij.sjs" /><include src="../selfPickSelect/index.ttml" /><view change:prop="{{fps.fpsRecord}}" prop="{{_fpsIsComputed}}"></view>

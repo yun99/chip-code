@@ -1,0 +1,1 @@
+<template name="vLine"><view style="{{style}}" class="v-line {{layout === 'left' ? 'item-left' : 'item-right'}}" /></template>

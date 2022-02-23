@@ -1,0 +1,1 @@
+<template name="img"><wq isBlockImg style="{{style}}" src="{{content}}" webp-conf="{{({width: width, height: height})}}" /></template>

@@ -1,0 +1,1 @@
+var r=Object.defineProperty;((e,o)=>{for(var s in(e=>{r(e,"__esModule",{value:!0})})(e),o)r(e,s,{get:o[s],enumerable:!0})})(exports,{default:()=>e});var e=class{constructor({historyWords:r=[]}={}){this.historyWords=r}};

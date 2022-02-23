@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((t,a)=>{for(var r in(t=>{e(t,"__esModule",{value:!0})})(t),a)e(t,r,{get:a[r],enumerable:!0})})(exports,{default:()=>t});var t=class{constructor({latitude:e=0,longitude:t=0}={}){this.realTimeLocation={latitude:e,longitude:t}}};

@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((s,t)=>{for(var r in(s=>{e(s,"__esModule",{value:!0})})(s),t)e(s,r,{get:t[r],enumerable:!0})})(exports,{default:()=>s});var s=class{constructor(e,s={}){this.request=e,this.response=s}setResponse(e){this.response=e}getResponse(){return this.response}getRequest(){return this.request}setRequest(e){this.request=e}};

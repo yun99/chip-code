@@ -1,0 +1,1 @@
+.title{align-items:center;border-bottom:1rpx solid #eee;display:flex;height:100rpx;justify-content:space-between;margin-bottom:14rpx}.title .left{color:#121924;font-size:32rpx;font-weight:700;letter-spacing:0}.title .right{align-items:center;color:#95989e;display:flex;font-size:26rpx;letter-spacing:0}.title .right .img{height:20rpx;width:20rpx}

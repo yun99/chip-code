@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.filterProps=function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},r=Object.assign({},i);if(!(0,e.isEmptyObject)(t))for(var n in t)void 0===r[n]&&(r[n]=t[n]);return r};var e=require("./x3.js");

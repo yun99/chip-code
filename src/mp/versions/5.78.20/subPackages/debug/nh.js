@@ -1,0 +1,1 @@
+var e=require("./2g.js"),t=require("./2j.js"),o=require("./2h.js"),r=Function.prototype,n=Object.prototype,u=r.toString,a=n.hasOwnProperty,s=u.call(Object);module.exports=function(r){if(!o(r)||"[object Object]"!=e(r))return!1;var n=t(r);if(null===n)return!0;var l=a.call(n,"constructor")&&n.constructor;return"function"==typeof l&&l instanceof l&&u.call(l)==s};

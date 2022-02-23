@@ -1,0 +1,1 @@
+Component({properties:{loadingText:{type:String,value:"正在寻找你喜爱的商品"},textStyle:{type:String,value:""},icon:{type:String,value:"https://p0.meituan.net/mallimages/7fccf85fdd6d8534198e6d1bc61ef9cd3570.png"}}});

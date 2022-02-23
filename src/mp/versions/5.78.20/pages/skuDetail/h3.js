@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((a,t)=>{for(var s in(a=>{e(a,"__esModule",{value:!0})})(a),t)e(a,s,{get:t[s],enumerable:!0})})(exports,{default:()=>a});var a=class{static renderBaseWxml(e){e.setData({__isPageReady:!0})}constructor(e){this.page=e}setPageScrollStatus(e){!this.page.data.isPageScrolled&&e>0&&this.page.setData({isPageScrolled:!0})}};

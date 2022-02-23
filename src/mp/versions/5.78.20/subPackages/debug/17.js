@@ -1,0 +1,1 @@
+function t(e,o){return module.exports=t=function(){if(!Object.setPrototypeOf)return!1;const t={};return Object.setPrototypeOf(t,{})===t}()?Object.setPrototypeOf:function(t,e){return t.__proto__=e,t},t(e,o)}module.exports=t;

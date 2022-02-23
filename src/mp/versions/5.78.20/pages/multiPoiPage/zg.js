@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((a,r)=>{for(var t in(a=>{e(a,"__esModule",{value:!0})})(a),r)e(a,t,{get:r[t],enumerable:!0})})(exports,{default:()=>a});var a=Behavior({attached:()=>{},detached:()=>{}});

@@ -1,0 +1,1 @@
+var e=require("./br.sjs");module.exports=exports=function n(o,r,u){if(r===void 0){r=2}if(u===void 0){u=!1}if(o!==undefined){if("number"!=typeof o)return console.log("❌ fen2Yuan只接受传入number类型参数！"),o;r=e(o/100,r);return u?parseFloat(r).toString():r}};

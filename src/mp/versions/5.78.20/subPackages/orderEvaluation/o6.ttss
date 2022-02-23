@@ -1,0 +1,1 @@
+.coupon-bottom{align-items:center;color:#999;display:flex;font-size:24rpx;justify-content:center;letter-spacing:0;margin-top:60rpx;padding-bottom:30rpx;position:relative}.line{height:2rpx;width:110rpx}.dot,.line{background:#d8d8d8}.dot{border-radius:50%;height:5rpx;width:5rpx}.dot-line-dis{margin-left:4rpx}.dot-text-dis{margin-left:14rpx;margin-right:14rpx}

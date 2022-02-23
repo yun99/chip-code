@@ -1,0 +1,1 @@
+var e=require("./3x.js"),o=require("./3z.js"),u=require("./3l.js"),l=e?e.toStringTag:void 0;module.exports=function(e){return null==e?void 0===e?"[object Undefined]":"[object Null]":l&&l in Object(e)?o(e):u(e)};

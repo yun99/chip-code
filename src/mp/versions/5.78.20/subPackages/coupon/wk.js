@@ -1,0 +1,1 @@
+var t=getApp();Component({properties:{skuItem:{type:Object}},data:{},methods:{toDetail(){const{poiId:e,poiIdStr:o,skuId:p}=this.data.skuItem;t.$router.goto(`/pages/skuDetail/index?poiId=${e}&poiIdStr=${o}&skuId=${p}`)}}});

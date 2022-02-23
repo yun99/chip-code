@@ -1,0 +1,1 @@
+<ed type="top" show="{{show}}" is-full-screen="{{true}}" catchtouchmove="prevents" z-index="120" tt:if="{{show}}"><view class="guide-gif-container"><wq webp-conf="{{({width: '714rpx', height: '275rpx'})}}" src="{{subscribeGuideGif}}" /></view></ed>

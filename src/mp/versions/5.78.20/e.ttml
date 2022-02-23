@@ -1,0 +1,1 @@
+<view class="subscribe-btn subscribe-btn--{{type}}" catchtap="subscribe">{{(innerSubStatus === -1 ? subStatus : innerSubStatus === 1) ? '取消提醒' : '到货提醒'}}</view>

@@ -1,0 +1,1 @@
+module.exports=function(t,{timer:e=500,tail:r=!1}={}){return new Promise(((n,o)=>{try{if(!r){const e=t();if(e)return void n(e)}const o=setInterval((()=>{const e=t();e&&(clearInterval(o),n(e))}),e)}catch(t){o(t)}}))};

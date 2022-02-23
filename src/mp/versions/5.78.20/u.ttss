@@ -1,0 +1,1 @@
+.box{color:#121924;font-size:30rpx;height:120rpx;right:-34rpx;top:-36rpx;width:240rpx}.box,.box__image{align-items:center;display:flex;justify-content:center;position:absolute}.box__image{height:100%;left:0;top:0;width:50%}.box__image:last-child{left:unset;right:0}.box__text{margin-bottom:8rpx}.box__2{top:-30rpx}.box__3,.box__4{top:-24rpx}

@@ -1,0 +1,1 @@
+var r=function r(t){var e={"big":{"width":"60rpx","height":"60rpx"},"small":{"width":"50rpx","height":"50rpx"}};return e[t]};module.exports={"getAddBtnWebConf":r};

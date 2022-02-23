@@ -1,0 +1,1 @@
+<view class="root {{isIpx ? 'ipx' : ''}}" tt:if="{{isShowConfirm}}"><view class="root_box"><button bind:tap="onConfirmClick" class="root_box_butt {{isSelectCard? 'select':'no-select'}}">确认自提点</button></view></view>

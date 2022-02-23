@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default={configure:function(t,e){var o=e.wxLayout;return t.layout&&(o=e.layout(t.layout.type,t.layout)),function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:function(){},o=arguments[2];return function(n){e(t(n,o))}}(o,t.send,t.timezoneOffset)}};

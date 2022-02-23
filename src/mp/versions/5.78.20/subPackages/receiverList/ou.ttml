@@ -1,0 +1,1 @@
+<template name="tags"><view class="tag-list"><view class="tag-item tag-item-{{index}} selected-{{item.id === selectedTag.id}}" data-tag="{{item}}" catchtap="handleTagClick" tt:for="{{tagList}}">{{item.tagName}}</view></view></template>

@@ -1,0 +1,1 @@
+<wxs module="asset" src="./jw.sjs" /><view class="empty-tips-container"><wq isBlockImg class="logo" webp-conf="{{({width:'240rpx', height:'208rpx'})}}" src="{{asset('images/empty_goods_img')}}" /><view class="empty-tips-title">{{title}}</view><view class="empty-tips-desc">{{descript}}</view></view><view class="block-line"></view>

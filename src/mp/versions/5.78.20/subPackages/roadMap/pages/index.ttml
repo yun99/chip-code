@@ -1,0 +1,1 @@
+<wxs module="fps" src="../../../ij.sjs" /><include src="../../../er.ttml" /><yg origin="{{origin}}" dest="{{dest}}" dest-address="{{destAddress}}" default-mode="{{defaultMode}}" tt:if="{{mapAvailable}}"></yg><view change:prop="{{fps.fpsRecord}}" prop="{{_fpsIsComputed}}"></view>

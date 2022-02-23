@@ -1,0 +1,1 @@
+exports.decode=exports.parse=require("./bm.js"),exports.encode=exports.stringify=require("./bn.js");

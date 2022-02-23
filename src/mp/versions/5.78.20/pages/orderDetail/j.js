@@ -1,0 +1,1 @@
+var t=getApp();Component({properties:{orderCashBack:{type:Object,value:{}}},methods:{onMvReport(e){const{orderCashBack:a}=this.data,o={activity_status:(null==a?void 0:a.taskStatus)||"",message:a.moduleTitle.text||"",type:3};t.$lxLog.mv(e.detail.bid,o)},gotoCash(){this.triggerEvent("gotoCash")}}});

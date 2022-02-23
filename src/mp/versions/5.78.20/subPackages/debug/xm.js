@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.get=function(o,n,r){var t=null==o?void 0:(0,e.baseGet)(o,n);return void 0===t?r:t};var e=require("./bh.js");

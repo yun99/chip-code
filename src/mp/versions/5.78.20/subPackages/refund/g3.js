@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((r,t)=>{for(var a in(r=>{e(r,"__esModule",{value:!0})})(r),t)e(r,a,{get:t[a],enumerable:!0})})(exports,{switchChecked2Status:()=>r});var r=e=>e?"open":"close";

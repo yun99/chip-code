@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((t,r)=>{for(var a in(t=>{e(t,"__esModule",{value:!0})})(t),r)e(t,a,{get:r[a],enumerable:!0})})(exports,{default:()=>t});var t=class{constructor({switchChecked:e,timeStamp:t}={}){this.switchChecked=e,this.timeStamp=t}};

@@ -1,0 +1,1 @@
+var{EntryPage:e}=require("../../../ol.js");Page(new e);

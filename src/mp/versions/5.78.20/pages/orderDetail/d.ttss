@@ -1,0 +1,1 @@
+.canvas-draw-container .canvas-draw-element{left:0;position:fixed;top:100rpx;transform:translate3d(1000rpx,0,0)}.canvas-draw-container .canvas-draw-element.debug{border:1rpx solid #ccc;transform:translateZ(0)}

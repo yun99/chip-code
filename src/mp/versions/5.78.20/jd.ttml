@@ -1,0 +1,1 @@
+<template name="switchDeliveryTab"><view class="st-container"><view class="{{isSelf && 'selected'}} st-ctn-btn g-text-3 st-ctn-left" data-type="self" bind:tap="onSwitchTab">自提</view><view class="{{!isSelf && 'selected'}} st-ctn-btn g-text-3 st-ctn-right" data-type="carry" bind:tap="onSwitchTab">送货</view></view></template>

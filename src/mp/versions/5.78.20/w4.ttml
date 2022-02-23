@@ -1,0 +1,22 @@
+<wxs module="tools">var getValue = function(dataList, catchList) {
+        return dataList ? dataList : (catchList ? catchList : {});
+    };
+    var getEmptyCartButtStyle = function(rate) {
+        var styleStr;
+        switch (rate) {
+            case 2:
+                styleStr = "font-size: 32rpx";
+                break;
+            case 3:
+            case 4:
+                styleStr = "border-radius: 36rpx !important;font-size: 36rpx; height:70rpx !important;";
+                break;
+            default:
+                break;
+        }
+        return styleStr;
+    };
+    module.exports = {
+        getValue: getValue,
+        getEmptyCartButtStyle: getEmptyCartButtStyle
+    };</wxs><view class="flex-align-center root"><view class="gradient gradient-head" tt:if="{{card.length}}"></view><scroll-view scroll-y scroll-anchoring="{{true}}" style="height: 100%" lower-threshold="1000" scroll-top="{{topNum}}" scroll-with-animation refresher-enabled="{{true}}" refresher-triggered="{{isRefreshing}}" bind:scroll="onViewScroll" bind:scrolltolower="onReachBottom" bind:refresherrefresh="onPullDownRefresh"><block tt:if="{{card.length}}"><view class="card" tt:for="{{card}}" tt:key="key"><ix skuHeap="{{item.value}}" valid="{{isButtonValid}}" startTouch="{{startTouch}}" currentTouchNodeId="{{currentTouchNodeId}}" skuId="{{skuId}}" bind:skuStatusChange="onSkuStatusChange" bind:onSkuTouchStart="onSkuTouchStart" bind:onSkuTouchEnd="onSkuTouchEnd" bind:cheapBuyPopupShow="onCheapBuyPopupShow" /></view></block><view class="{{cartRecData.itemList && cartRecData.itemList.length ? 'unfill-style' : 'no-data__wrapper'}}" tt:if="{{!card || !card.length}}"><wm type="CART" tips="您的购物车还空着呢，快去逛逛吧" show-btn="{{!isTT}}" from="cart" customPicConf="{{({width: '240rpx', height: '208rpx'})}}" customContainerStyle="z-index: 200" customPicStyle="display:block" customTipsStyle="line-height:unset;font-size:{{fontRate > 1 ? (fontRate === 2 ? 34 : 40) : 28}}rpx;color:#95989E;" customBtnStyle="{{tools.getEmptyCartButtStyle(fontRate)}}" bind:goAction="toIndex" /></view><view class="__fst_judge_target" style="visibility:hidden;" /></scroll-view><ea isShow="{{isCheapBuyPopupShow}}" promotionId="{{promotionId}}" promotionType="{{promotionType}}" promotionHandel="{{promotionHandel}}" zIndex="{{1200}}" bind:cheapBuyPopupClose="onCheapBuyPopupClose" bind:confirm="onCommonOperateCart" /><iz customizeStyle="bottom: 100rpx; position: absolute; z-index: 200;" isShowReturnTopBtn="{{isShowReturnTopBtn}}" bind:getBackTop="getBackTop" /></view>

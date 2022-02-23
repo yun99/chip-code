@@ -1,0 +1,1 @@
+var r=function r(t){if(!t||!t.length){return""}var e=[];for(var n=0;n<t.length;n++){var a=t[n];if(a&&a.tag){e.push(a.tag)}}return e.join("·")};module.exports={"getSubTitle":r};

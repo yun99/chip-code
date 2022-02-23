@@ -1,0 +1,1 @@
+Component({properties:{show:{type:Boolean,value:!1},title:{type:String,value:""},content:{type:String,value:""},tip:{type:String,value:""},btnList:{type:Array,value:[]}},data:{},methods:{handleMaskClick(){this.triggerEvent("maskClick")},handleBtnClick(t){const{dataset:{type:e=""}}=t.target;this.triggerEvent("btnClick",e)}}});

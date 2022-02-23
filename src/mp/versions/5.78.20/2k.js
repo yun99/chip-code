@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.wx=exports.console=void 0;var e=s(require("./3k.js")),o=s(require("./3j.js"));function s(e){return e&&e.__esModule?e:{default:e}}exports.console=e.default,exports.wx=o.default;

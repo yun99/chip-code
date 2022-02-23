@@ -1,0 +1,1 @@
+<template name="sku-button"><os class="{{(proxyData.isNeedShare || options.isNeedShare || sku.buttonList.length) ? classStr : ''}}" proxy-data="{{proxyData}}" sku="{{sku}}" options="{{options}}" innerClass="{{innerClass}}"></os></template>

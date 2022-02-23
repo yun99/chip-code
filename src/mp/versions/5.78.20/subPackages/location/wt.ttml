@@ -1,0 +1,1 @@
+<view class="guess-like-loading"><image class="guess-like-loading__icon" src="https://p0.meituan.net/mallimages/acfe9ca90c7b76e6ab5941752a05c2c52097.png" mode="scaleToFill" tt:if="{{shouldLoading}}"></image><text class="guess-like-loading__text">{{shouldLoading ? loadingText:noMoreText}}</text></view>

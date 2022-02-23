@@ -1,0 +1,1 @@
+var e=require("./17.js");module.exports=function(o,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");o.prototype=Object.create(t&&t.prototype,{constructor:{value:o,writable:!0,configurable:!0}}),t&&e(o,t)},module.exports.default=module.exports,module.exports.__esModule=!0;

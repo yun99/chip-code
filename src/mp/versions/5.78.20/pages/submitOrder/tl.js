@@ -1,0 +1,1 @@
+Component(new class{constructor(){this.methods={closeCouponAssignToast(){this.triggerEvent("closeCouponAssignToast")},catchtouchmove(){}},this.properties={returnCouponList:{type:Array},ifCouponAssignToastShow:{type:Boolean,value:!1}},this.data={}}});

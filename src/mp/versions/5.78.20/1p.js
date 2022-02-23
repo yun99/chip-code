@@ -1,0 +1,1 @@
+var e=Object.defineProperty;((r,s)=>{for(var t in(r=>{e(r,"__esModule",{value:!0})})(r),s)e(r,t,{get:s[t],enumerable:!0})})(exports,{default:()=>r});var r=class{constructor({subTime:e=0}={}){this.subTime=e}};

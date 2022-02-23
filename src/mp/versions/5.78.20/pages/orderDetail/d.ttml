@@ -1,0 +1,1 @@
+<view class="canvas-draw-container"><canvas class="canvas-draw-element {{debug ? 'debug' : ''}}" id="{{canvasElementId || 'defaultCanvasElementId'}}" type="2d" style="width: {{canvasWidth}}px; height: {{canvasHeight}}px" /></view>

@@ -1,0 +1,1 @@
+Component(new class{constructor(){this.properties={status:{type:Object,value:null},orderInfo:{type:Object,value:null},isFixed:{type:Boolean,value:!1},navigatorHeight:{type:Number,value:0}}}});

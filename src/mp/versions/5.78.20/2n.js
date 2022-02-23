@@ -1,0 +1,1 @@
+var e={genCache:-999,getDeviceGen(e){if(-999!==this.genCache)return this.genCache;if("string"!=typeof e)return this.genCache=-1,this.genCache;const h=e.match(/<[A-Za-z]+(\d+),(\d+)>/i);if(!h||!h[1])return this.genCache=-1,this.genCache;const t=Number(h[1]);return"number"==typeof t&&t==t?(this.genCache=t,this.genCache):(this.genCache=-1,this.genCache)}};module.exports=e;

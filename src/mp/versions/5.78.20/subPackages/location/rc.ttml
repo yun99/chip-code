@@ -1,0 +1,1 @@
+<view class="root {{isIpx ? 'ipx' : ''}}"><view class="root_box"><button bind:tap="onChooseClick" class="root_box_butt">选择其他自提点</button></view></view>

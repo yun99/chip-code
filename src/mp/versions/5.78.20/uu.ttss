@@ -1,0 +1,1 @@
+.placeholder-img-container{align-items:center;background:#fafbfc;display:flex;justify-content:center}.border{border:1rpx solid #eee;border-radius:20rpx}.img-yx{background-image:var(--default-default-image);background-position:50%;background-repeat:no-repeat;background-size:60%}.progressive-img,.real-img-with-progressive{left:0;position:absolute;top:0}

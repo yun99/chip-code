@@ -1,0 +1,1 @@
+<view class="scene-loading"><wq class="scene-loading__icon" src="{{icon}}" mode="scaleToFill" webp-conf="{{({width:'30rpx', height:'30rpx'})}}" isBlockImg="{{true}}" /><view style="{{textStyle}}" class="scene-loading__text">{{loadingText}}</view></view>

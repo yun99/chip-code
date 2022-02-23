@@ -1,0 +1,1 @@
+var r=Object.defineProperty;((e,E)=>{for(var o in(e=>{r(e,"__esModule",{value:!0})})(e),E)r(e,o,{get:E[o],enumerable:!0})})(exports,{CATEGORY:()=>o,LEVEL:()=>R,STOREKEY:()=>E,VERSION:()=>e});var e="1.2.8",E="WXOWLKEY",o={SCRIPT:"jsError",AJAX:"ajaxError",RESOURCE:"resourceError"},R={ERROR:"error",WARN:"warn",INFO:"info",DEBUG:"debug"};
