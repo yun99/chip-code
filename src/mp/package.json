@@ -37,7 +37,7 @@
     "vue-hot-reload-api": "^2.3.4",
     "vue-router": "^3.4.9",
     "vue-template-compiler": "^2.6.12",
-    "vuetify": "^2.4.3",
+    "vuetify": "^2.6.10",
     "workerpool": "^6.0.4"
   }
 }
