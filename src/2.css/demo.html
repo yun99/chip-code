@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <script src="https://s0.meituan.net/bs/knb/v1.8.3/knb.js"></script>
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #28384b;
+        box-sizing: border-box;
+      }
+      .fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+      }
+
+      .input1 {
+        display: none;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 2em;
+        box-sizing: border-box;
+      }
+      .input2 {
+        display: none;
+        position: fixed;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 2em;
+        box-sizing: border-box;
+      }
+
+      .toInput1 {
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background: #ddd;
+      }
+      .toInput2 {
+        position: fixed;
+        bottom: 50px;
+        right: 120px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background: #ddd;
+      }
+
+      .toinput: actived {
+        background: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="relative">
+      <img
+        class="fixed"
+        src="https://p0.meituan.net/shaitu/151e353fce9decbdfaae906deaec20d7278430.jpg@80q"
+        alt=""
+      />
+      <input id="input1" class="input1" type="text" />
+      <input id="input2" class="input2" type="text" />
+      <div id="toInput1" class="toInput1">想说top</div>
+      <div id="toInput2" class="toInput2">想说bottom</div>
+    </div>
+  </body>
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 想说时间点击
+    document.querySelector("#toInput1").addEventListener("click", function () {
+      blurAll();
+      const $input1 = document.querySelector("#input1");
+      $input1.style.display = "block";
+      $input1.focus();
+    });
+    // 想说时间点击
+    document.querySelector("#toInput2").addEventListener("click", function () {
+      blurAll();
+      console.log("click toInput2");
+      const $input2 = document.querySelector("#input2");
+      $input2.style.display = "block";
+      $input2.focus();
+    });
+
+    function blurAll() {
+      const $input1 = document.querySelector("#input1");
+      $input1.style.display = "none";
+      $input1.blur();
+
+      const $input2 = document.querySelector("#input2");
+      $input2.style.display = "none";
+      $input2.blur();
+    }
+
+    document.querySelector("body").addEventListener("click", function () {});
+  });
+
+  function getKeyboardHeight() {
+    // 创建一个隐藏的输入框
+    var input = document.createElement("input");
+    input.setAttribute("type", "text");
+    input.setAttribute(
+      "style",
+      "position:absolute; top:-9999px; left:-9999px;"
+    );
+    document.body.appendChild(input);
+
+    // 监听输入框的焦点事件
+    input.addEventListener("focus", function () {
+      // 获取焦点时，键盘弹出
+      var windowHeight = window.innerHeight;
+      var inputRect = input.getBoundingClientRect();
+      var inputBottom = inputRect.bottom;
+
+      // 估算键盘高度
+      var keyboardHeight = windowHeight - inputBottom;
+      alert("键盘高度：" + keyboardHeight + "px");
+
+      // 移除输入框
+      document.body.removeChild(input);
+    });
+
+    // 触发输入框的焦点事件
+    input.focus();
+  }
+
+  // 调用函数获取键盘高度
+  setTimeout(() => {
+
+      getKeyboardHeight();
+  }, 500)
+</script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video</title>
+    <style>
+      .video-wrap{
+        width: 750px;
+        height: 400px;
+      }
+      #video-show {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video-wrap">    
+      <video
+        id="video-player"
+        src="https://apd-22a4857c9c878e4693677a218221aea6.v.smtcdns.com/variety.tc.qq.com/A5r0ME8B0H977QULbNlF-_4ffZzsSWZ_2NfDT4_wIGYU/svp_1050/gzc_1000173_0b53yiabuaaariap4j2acnsbvqqedlbaagsa.f124005.mp4?fmt=shd&platform=10901&vkey=1D422746C26406BC43D6654327565F12E59A800C45FBE221DA8D603605461F9B34ABCE15B7AAD8196C4BA3B7272BF1512D5FF8E159E76E181E9A1BDD2737FFF186C61C208FF05CA45052C53EB7F642F202937EB1FB5E38460724C19B28244756F6A169781F83F826568770E5360B1FDA&level=0"
+        controls="controls"
+        crossorigin="anonymous"
+      >
+      </video>
+      <div style="display: none"  id="video-show">
+        任务完成，点击
+        <button id="play-button">继续播放</button>
+      </div>
+    </div>
+    <script>
+      const $ = (selector) => {
+        return  document.querySelector(selector);
+      }
+      var taskStatus = "undone";
+      const video = $("#video-player");
+      if (video) {
+        video.addEventListener( "timeupdate", () => {
+          const timeDisplay = Math.floor(video.currentTime);
+          if (taskStatus === "undone" && timeDisplay > 2) {
+            video.pause();
+            video.style.display = "none";
+            $("#video-show").style.display = "block";
+          }
+        }, false );
+      }
+
+      const playButton = $("#play-button");
+      playButton.addEventListener("click", () => {
+        $("#video-show").style.display = "none";
+        taskStatus = "done";
+        video.style.display = "block";
+        video.play();
+      }, false );
+    </script>
+  </body>
+</html>

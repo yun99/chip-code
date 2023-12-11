@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://s0.meituan.net/bs/knb/v1.8.3/knb.js"></script>
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            background: #fff;
+            height: 100%;
+            /* height: 100vh; */
+            box-sizing: border-box;
+        }
+        .relative {
+            /* margin-top: 20px; */
+            padding-top: 150px;
+            padding-left: 100px;
+            position: relative;
+            /* height: 200vh; */
+            background: #fefefe;
+        }
+        .fied {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100vh;
+            background: #ddd;
+        }
+        .absolute {
+            position: absolute;
+            top: 0;
+            left: 120px;
+            width: 100px;
+            height: 100px;
+            background: #81b8f6;
+        }
+        .center {
+            text-align: center;
+            line-height: 100px;
+        }
+        .input {
+            position:fixed;
+            bottom:50px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 2em;
+            box-sizing: border-box;
+        }
+
+        .window-info {
+            position: fixed;
+            top: 400px;
+            left: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <div class="fied">
+            <p class="center">fixed1</p>
+            <p class="center">fixed2</p>
+            <p class="center">fixed3</p>
+            <p class="center">fixed4</p>
+            <p class="center">fixed5</p>
+            <p class="center">fixed6</p>
+            <p class="center">fixed7</p>
+            <p class="center">fixed8</p>
+            <p class="center">fixed9</p>
+            <p class="center">fixed0</p>
+            <p class="center">fixed1</p>
+        </div>
+        <div id="absolute" class="absolute center">absolute</div>
+        <div id="window-info"></div>
+        <input id="input" class="input" type="text" onfocus="setScreenInfo">
+    </div>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        let count = 0
+        function setScreenInfo() {
+            
+            var $infoContainer = document.querySelector("#window-info");
+            const bodyHeight = document.body.clientHeight;
+            const documentHeight = document.documentElement.clientHeight;
+            const windowInnerHeight = window.innerHeight;
+            const windowOuterHeight = window.outerHeight;
+            const screenHeight = window.screen.height;
+            const windowScreenTop = window.screenTop;
+            const documentScreenTop = document.documentElement.scrollTop;
+
+            $infoContainer.innerHTML = `
+                <p>count: ${count}</p>
+                <p>bodyHeight: ${bodyHeight}</p>
+                <p>documentHeight: ${documentHeight}</p>
+                <p>windowInnerHeight: ${windowInnerHeight}</p>
+                <p>windowOuterHeight: ${windowOuterHeight}</p>
+                <p>screenHeight: ${screenHeight}</p>
+                <p>windowScreenTop: ${windowScreenTop}</p>
+                <p>documentScreenTop: ${documentScreenTop}</p>
+            `
+            count++;
+        }
+
+
+        function setTopEleStyle() {
+            document.querySelector("#absolute").style.top = document.documentElement.scrollTop + 'px'
+        }
+        // setScreenInfo();
+        window.addEventListener('resize', function() {
+        // 在窗口大小变化时执行的代码
+            // setTimeout(function() {
+            //     setScreenInfo();
+            // }, 100)
+            // getSafeArea();
+            // window.scrollTo(0,0)
+        });
+
+        setInterval(() => {
+            setScreenInfo();
+            setTopEleStyle();
+            // document.documentElement.scrollTo(0,0)
+        }, 1000)
+
+        document.querySelector("#input").addEventListener('focus', function() {
+            setTimeout(function() {
+                setScreenInfo();
+                // alert(document.documentElement.clientHeight);
+            }, 0)
+            // getSafeArea();
+            // window.scrollTo(0,0)
+            // alert(document.body.scrollTop)
+        })
+        
+        function getSafeArea() {
+            KNB.use('getSafeArea', {
+                success: function(result){
+                    const { top, bottom, left, right } = result;
+                    console.log('getSafeArea result:', result)
+                    alert(`top:${top}, bottom:${bottom}, left:${left}, right:${right}`)
+                }
+            });
+        }
+        // KNB.ready(function(){
+        //     console.log("KNB ready", KNB)
+        //     getSafeArea();
+        // })
+    });
+</script>

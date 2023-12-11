@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 参考文档：https://blog.csdn.net/weixin_46318413/article/details/122731141
+        // console.log(a);
+        // console.log(a());
+        // function a() {
+        //     console.log('dd')
+        // }
+        // b = 1
+        // a = 100;
+        // console.log(a)
+        // var a;
+        
+        //////////////////////////////
+        // function fn(a) {
+        //     console.log(a);
+        //     var a = 123;
+        //     console.log(a)
+        //     function a() {}
+        //     console.log(b)
+        //     var b = function() {}
+        //     console.log(b)
+        //     function d() {}
+        // }
+        // fn(1)
+        
+
+
+        //////////////////////////////
+
+        console.log(a)
+        a = 100;
+        function test(a) {
+            console.log(a)
+            function a() {}
+            var a = 300
+        }
+        var a;
+        test(a)
+        
+        // console.log(a)
+        // function a() {}
+        // var a;
+        // console.log(a)
+        // a = 100
+        // console.log(a)
+
+    </script>
+</body>
+</html>
